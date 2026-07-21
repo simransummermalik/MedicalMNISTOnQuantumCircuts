@@ -1,0 +1,19 @@
+# Local Python environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+.jupyter/
+
+# macOS metadata
+.DS_Store
+
+# Downloaded datasets and regenerated execution artifacts
+output/data/raw/
+output/notebooks/
+output/logs/

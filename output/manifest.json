@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "datasets": [
+    "pneumoniamnist",
+    "breastmnist",
+    "pathmnist"
+  ],
+  "compression_levels": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "quantum_dataset": "pneumoniamnist",
+  "tables": [
+    "bootstrap_confidence_intervals.csv",
+    "classical_compression_results.csv",
+    "compression_viability_summary.csv",
+    "dataset_overview.csv",
+    "full_feature_reference_results.csv",
+    "most_damaged_probe_results.csv",
+    "negative_control_iterations.csv",
+    "negative_control_results.csv",
+    "patch_sweep_occlusion_results.csv",
+    "preservation_results.csv",
+    "quantum_preservation_results.csv",
+    "quantum_summary.csv",
+    "variance_retention_results.csv"
+  ],
+  "figures": [
+    "compression_accuracy_by_dataset.png",
+    "dataset_examples.png",
+    "most_damaged_probe_by_dataset.png",
+    "occlusion_sensitivity_reference_vs_compressed.png",
+    "pca_variance_retention_by_dataset.png",
+    "perturbation_probe_examples.png",
+    "preservation_heatmap_by_dataset.png",
+    "quantum_vs_matched_classical.png",
+    "repeated_negative_control_histogram.png",
+    "variance_vs_preservation_scatter.png",
+    "vqc_probe_preservation.png",
+    "vqc_training_loss.png"
+  ]
+}
